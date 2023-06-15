@@ -9,7 +9,7 @@
 
 /* utility */
 .debug {
-  border: 5px dashed black;
+  border: 1px dashed black;
   min-height: 10px;
   min-width: 10px;
 }
@@ -29,15 +29,26 @@
 }
 
 /* more */
+/* stuttura in colonne */
+.row {
+  margin: -10px;
+}
+.column {
+  width: calc(100% / 3);
+  float: left;
+  margin: 20px 0px;
+  padding: 0px 10px;
+}
 
+/* header */
 .title {
   text-align: center;
   font-family: "Bagel Fat One", cursive;
   color: #e53170;
 }
 
-.container > p {
-  margin: 20px;
+header > p {
+  margin: 20px 0px;
   text-align: center;
 }
 
@@ -61,8 +72,10 @@
 .card > .mail {
   color: #34addc;
 }
-.card > .foto {
+.card > img {
   float: left;
-  max-height: 150px;
-  max-width: 150px;
+  max-height: 100px;
+  max-width: 100px;
+
+  margin: 0px 30px 0px 0px;
 }
