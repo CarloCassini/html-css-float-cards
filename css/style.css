@@ -1,11 +1,17 @@
 /* general */
 * {
   box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* utility */
 .debug {
-  border: 5px solid black;
+  border: 5px dashed black;
+  min-height: 10px;
+  min-width: 10px;
 }
 
 .container {
@@ -23,3 +29,40 @@
 }
 
 /* more */
+
+.title {
+  text-align: center;
+  font-family: "Bagel Fat One", cursive;
+  color: #e53170;
+}
+
+.container > p {
+  margin: 20px;
+  text-align: center;
+}
+
+/* card e figli */
+.card {
+  background-color: black;
+  color: white;
+
+  min-width: 10px;
+  min-height: 10px;
+}
+.card > .name {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: larger;
+}
+.card > .profession {
+  font-family: "Poppins", sans-serif;
+  font-size: small;
+}
+.card > .mail {
+  color: #34addc;
+}
+.card > .foto {
+  float: left;
+  max-height: 150px;
+  max-width: 150px;
+}
