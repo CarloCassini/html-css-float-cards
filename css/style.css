@@ -4,6 +4,17 @@
 }
 
 /* utility */
+.debug {
+  border: 5px solid black;
+}
+
+.container {
+  margin: 0px auto;
+  padding: 5px;
+
+  width: 100%;
+  max-width: 900px;
+}
 
 .clearfix::after {
   content: "";
