@@ -1,0 +1,14 @@
+/* general */
+* {
+  box-sizing: border-box;
+}
+
+/* utility */
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* more */
